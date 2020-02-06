@@ -31,7 +31,7 @@ public final class Constants {
     public static final double kaVoltSecondsSquaredPerMeter = 0.719;
     public static final double kPDriveVel = 0.3; //on loop type position
     //public static final double kPDriveVel = 1.87; //on loop type velocity
-    public static final double kP=46.8, kI=0, kD=18.5;
+    public static final double kP=0.3, kI=0.0001, kD=1;
     
     public static final double kTrackwidthMeters = 0.6523019180914628;
     public static DifferentialDriveKinematics kDriveKinematics =
